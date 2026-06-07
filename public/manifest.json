@@ -1,0 +1,40 @@
+{
+  "name": "Documind - Privacy-First Document AI",
+  "short_name": "Documind",
+  "description": "AI-powered OCR and local text-to-speech for Windows, macOS, and Linux. Extract text from PDFs and images, convert text to speech — all on your machine.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#34d399",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Download Documind",
+      "short_name": "Download",
+      "description": "Download Documind for your platform",
+      "url": "/#download",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
