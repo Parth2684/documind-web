@@ -1,6 +1,7 @@
 import { LINKS, VERSION } from "@/lib/constants";
 import { DownloadIcon, GithubIcon } from "./icons";
 import { Logo } from "./logo";
+import { DownloadCounter } from "./download-counter";
 
 export function Hero() {
   return (
@@ -19,6 +20,10 @@ export function Hero() {
             <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
           </span>
           v{VERSION} — First Stable Release
+        </div>
+
+        <div className="mb-6 flex justify-center">
+          <DownloadCounter />
         </div>
 
         <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl md:leading-[1.1]">
@@ -52,6 +57,7 @@ export function Hero() {
             View on GitHub
           </a>
         </div>
+        
 
         <p className="mt-8 text-sm text-muted">
           Windows · macOS · Linux · No telemetry · No tracking
